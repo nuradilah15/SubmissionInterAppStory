@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SubmissionInterAppStory</string>
+    <string name="header">Selamat Datang di Stories Apps</string>
+    <string name="desc_text">Stories Apps dapat membantu anda dalam membuat story. Jangan lupa membuat akun jika anda belum mempunyainya!</string>
+    <string name="login">Log In</string>
+    <string name="signup">Register</string>
+    <string name="todo">Description</string>
+    <string name="desc_login">Welcome to Stories Apps! Please login your account.</string>
+    <string name="email">E-mail</string>
+    <string name="desc_regis">Please complete your data to join.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="regis">Register</string>
+    <string name="Yes">Yes!</string>
+    <string name="successlogin">Login Success</string>
+    <string name="next">Yes! Next page</string>
+    <string name="no">No</string>
+    <string name="failedlogin">Failed</string>
+    <string name="again">Login again</string>
+    <string name="createsukses">This account is ready</string>
+    <string name="createfailed">This account is failed</string>
+    <string name="story_apps">STORY APPS</string>
+    <string name="empty">No photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="description">Description</string>
+    <string name="upload">Upload</string>
+    <string name="exit">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="create">dibuat pada %1$s,</string>
+    <string name="againregis">Regis again</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps">Maps</string>
+    <string name="retry">Coba Lagi</string>
+</resources>

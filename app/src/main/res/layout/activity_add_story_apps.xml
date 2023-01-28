@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".story.AddStoryApps">
+
+    <ImageView
+        android:id="@+id/addStory_Imgview"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/photo_galery"/>
+
+    <Button
+        android:id="@+id/addGall_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="@string/gallery"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/addStory_Imgview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/addCamerax_Btn"/>
+
+    <Button
+        android:id="@+id/addCamerax_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="@string/camera"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/addStory_Imgview"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/addGall_Btn"/>
+
+    <EditText
+        android:id="@+id/desEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:autofillHints="Description your story"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:minLines="4"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addGall_Btn" />
+
+    <Button
+        android:id="@+id/addUploadphoto_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/upload"
+        app:layout_constraintTop_toBottomOf="@id/desEditText"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
